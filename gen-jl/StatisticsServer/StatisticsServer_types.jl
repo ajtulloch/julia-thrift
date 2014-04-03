@@ -10,4 +10,4 @@ type StatisticsEvent
   StatisticsEvent() = (o=new(); fillunset(o); o)
 end # type StatisticsEvent
 
-abstract StatisticsServerClientBase
+abstract StatisticsServerHandlerClientBase

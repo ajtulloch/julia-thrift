@@ -3,6 +3,6 @@ struct StatisticsEvent {
   2: i64 value,
 }
 
-service StatisticsServer {
+service StatisticsServerHandler {
     StatisticsEvent appendEvent(1: StatisticsEvent event);
 }

@@ -2,7 +2,7 @@ using Logging
 Logging.configure(level=DEBUG)
 
 function appendEvent(event::StatisticsEvent)
-    info("Event: %s", event)
+    info("Event: ", event)
     return event
 end
 
